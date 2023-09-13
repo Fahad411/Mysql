@@ -1,16 +1,19 @@
-Tuwaiq Academy
-This is the first project for SQLite with Python, The purpose of this project is to learn and know how to create a database SQLite using Python and how you can execute queries .
+**Tuwaiq Academy**
 
+This is the first project for MYSQL with Python, The purpose of this project is to learn and know how to create a database MYSQL using Python and how you can execute queries .
 We have 6 tables in this project
 
 You can changed the data according to your will
 
-And we have hare 5 Select Queries For more than one type of selection and we have Delete Query For one type and Update Query with using 'Where'
+And we have hare 5 Select Queries For more than one type of selection and we have Update Query For one type and Delete Query with using 'Where'
 
-If you have any questions contact me on...
+And i do some code in this project For check if age = 30 and id = 3 after execute query update or not 
+**this is not my goal from this is project , my goal is to know how we can configuration and sending some queries to Mysql using python .**
 
-Twitter: @s4cript OR Telegrm: @s4cript
+*If you have any questions contact me on...*
 
-Thank you for read
+***Twitter: @s4cript OR Telegrm: @s4cript***
 
-Happy coding :)
+Thank you for read 
+
+**Happy coding :)**
