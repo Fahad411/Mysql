@@ -1,4 +1,4 @@
-**Tuwaiq Academy**
+# **Tuwaiq Academy**
 
 This is the first project for MYSQL with Python, The purpose of this project is to learn and know how to create a database MYSQL using Python and how you can execute queries .
 We have 6 tables in this project
@@ -16,4 +16,4 @@ And i do some code in this project For check if age = 30 and id = 3 after execut
 
 Thank you for read 
 
-**Happy coding :)**
+#https://translate.google.com/ **Happy coding :)**
