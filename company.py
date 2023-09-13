@@ -184,10 +184,6 @@ def execute_query(connection, query):
 #   (5, 5);
 # """
 
-# cursor = connection.cursor()
-# cursor.executemany(create_empldepart, empldepart_val)
-# connection.commit()
-
 # create_empl_rate = """
 # INSERT INTO
 #   empl_rate (emply_id, rate)
@@ -223,7 +219,7 @@ def execute_read_query(connection, query):
 # # __________________________________________
 #
 #
-# # 8. Create SELECT queries:
+# 8. Create SELECT queries:
 # select_employees = "SELECT * FROM employees"
 # employees = execute_read_query(connection, select_employees)
 
@@ -237,14 +233,14 @@ def execute_read_query(connection, query):
 # # __________________________________________
 #
 #
-# # 9.  Create SELECT query with using condition 'Where' :
+# 9.  Create SELECT query with using condition 'Where' :
 # Select_Female_employees = """
 # SELECT * FROM
 #     employees
 # WHERE 
 #     gender = 'Female' 
 # AND
-#     age > 30
+#     age > 30S
 # """
 
 # f_employyes = execute_read_query(connection, Select_Female_employees)
@@ -254,7 +250,7 @@ def execute_read_query(connection, query):
 #         print(employee)
 # else:
 #     print("No employees found")
-#
+
 #
 # # __________________________________________
 #
@@ -294,6 +290,7 @@ def execute_read_query(connection, query):
 #
 # 
 # # __________________________________________
+#
 # Arabi Note:
 # شكلي تحمست وطلع معي هالكود 
 # اذا مافهمت الي سويته هنا اني خليته يتاكد اذا كان العمر 30 راح يطبع لي البيانات حسب العمر وراح يتحقق من العمر عن طريق رقم الاندكس
@@ -340,7 +337,7 @@ def execute_read_query(connection, query):
 # # __________________________________________
 #
 #
-# 12. Create Delete queries:
+## 12. Create Delete queries:
 # delete_employee = "DELETE FROM employees WHERE id = 7"
 # execute_query(connection, delete_employee)
 
